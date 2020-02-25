@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/18cca282cb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fundo">
+    </div>
+    <section class="clock">
+        <h1 id="paragrafo_session">Session</h1>
+        <h3 id="session_clock">25:00</h3>
+        <hr>
+        <div class="button-controler">
+            <i onclick="play()" class=" fas fa-play"></i>
+            <i onclick="pause()" class="fas fa-pause"></i>
+            <i onclick="stop()" class="fas fa-stop"></i>
+        </div>
+        <div class="session-length">
+            <p>Session Length</p>
+            <i onclick="sessionLength(1)" class="fas fa-plus"></i>
+            <p id="session1" style="font-family: calculator;">25:00</p>
+            <i onclick="sessionLength(2)" class="fas fa-minus"></i>
+            <div class="clear"></div>
+        </div>
+
+        <div class="break-length">
+            <p>Break Length</p>
+            <i onclick="breakLength(1)" class="fas fa-plus"></i>
+            <p id="session2" style="font-family: calculator;">25:00</p>
+            <i onclick="breakLength(2)" class=" fas fa-minus"></i>
+            <div class="clear"></div>
+        </div>
+
+        <audio src="notificacao.m4a"></audio>
+
+    </section>
+    <!--clock-->
+
+
+
+
+
+    <script src="function.js"></script>
+
+</body>
+
+</html>
