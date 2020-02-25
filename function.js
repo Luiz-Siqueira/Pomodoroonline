@@ -3,10 +3,11 @@ var interval_value;
 var valor_interval;
 var valor_break;
 var break_value;
-
+var i = 0;
 
 function sessionLength(med) {
     clearInterval(time);
+    i = 0;
     session1 = document.getElementById('session1');
     valor_interval = parseFloat(session1.innerHTML);
     if (med == 2 && valor_interval > 5) {
@@ -23,6 +24,7 @@ function sessionLength(med) {
 
 
 function breakLength(med) {
+    i = 0;
     clearInterval(time);
     var session2 = document.getElementById('session2');
     valor_break = parseFloat(session2.innerHTML);
@@ -42,7 +44,7 @@ var min;
 var initial;
 var seg;
 var time;
-var i = 0;
+
 function play() {
     clearInterval(time);
     i = i + 1;
@@ -88,6 +90,7 @@ function pause() {
 
 function stop() {
     clearInterval(time);
+    i = 0;
     document.getElementById('session_clock').innerHTML = initial;
 }
 
