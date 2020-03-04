@@ -147,40 +147,6 @@ hr{
 
 
 @media screen and (max-width: 686px){
-    .clock{
-        width:95%;
-        height:500px;
-        top:30px;
-        /* bottom, */
-    }
-
-    .session-length{
-        width:190px;
-        height:100px;
-        position: relative;
-        bottom:100px;
-        left:00px;
-        text-align: center;
-        float:left;
-    }
-    .break-length{
-        width:190px;
-        height:100px;
-        position: relative;
-        bottom:100px;
-        right:00px;
-        text-align: center;
-        float:right;
-    }
-        .break-length .fa-plus{
-        margin-left:0px;
-    }
-    .session-length .fa-plus{
-        margin-left:0px;
-    }
-}
-
-@media screen and (max-width: 686px){
     .fundo{
         width:100%;
         height:100%;
@@ -255,6 +221,6 @@ hr{
     }
     .button{
         position: relative;
-        bottom:100px;
+        bottom:60px;
     }
 }
