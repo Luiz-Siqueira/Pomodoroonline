@@ -268,4 +268,7 @@ hr{
         position: relative;
         bottom:60px;
     }
+    .content{
+        width:80%;
+    }
 }
