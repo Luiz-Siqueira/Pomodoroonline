@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Luiz-Siqueira/Task-react-native/main/task_icon.png" />
+  <img src="https://github.com/Luiz-Siqueira/Pomodoroonline/blob/master/kisspng-pomodoro-technique-marinara-sauce-timer-time-manag-pomodoro-technique-5b194d462fa388.6154436715283848381951-removebg-preview.png?raw=true" />
 </p>
 
 
